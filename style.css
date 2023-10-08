@@ -96,7 +96,6 @@ body {
     font-weight: 400;
     line-height: normal;
     color: #FFF;
-    line-height: normal;
 }
 
 .rectangle1{
@@ -121,5 +120,21 @@ body {
     font-weight: 400;
     line-height: normal;
     color: #FFF;
+    
+}
+
+.vxod{
+    position:absolute;
+    padding-top: 354px;
+}
+
+.container-vxod{
+    position: absolute;
+    padding-top:24px;
+    background-color: #85D3E8; 
+    color: white; 
+    font-size: 14px; 
+  
+    border-radius: 10px; 
     
 }
