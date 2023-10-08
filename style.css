@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@700&family=Lalezar&display=swap');
 
 body {
     margin: 0;
@@ -27,7 +27,7 @@ body {
     font-family: Inconsolata;
     text-align: center;
     
-    padding-bottom: 250px;
+    padding-bottom: 65px;
 }
 
 .circle {
@@ -48,8 +48,6 @@ body {
     left: 0;
     animation: slideBackground 20s linear infinite alternate; /* Анимация картинки */
 }
-
-
 
 
 .rectangle{
@@ -78,4 +76,50 @@ body {
     100% {
         transform: translateY(7%); /* Сдвиг заднего фона вверх по Y */
     }
+}
+
+.slova {
+    letter-spacing: 5.28px;
+    padding-bottom: 10px;
+    position: absolute;
+
+}
+
+.slova input[type="text"] {
+    font-weight: 400;
+    font-family: Lalezar;
+    border: 2px solid #60BBD1;
+    background-color: #60BBD1;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    line-height: normal;
+}
+
+.rectangle1{
+    padding-top:40px;
+}
+
+.slova1 {
+    letter-spacing: 13.32px;
+    padding-top: 170px;
+    position: absolute;
+
+}
+
+.slova1 input[type="text"] {
+    font-weight: 400;
+    font-family: Lalezar;
+    border: 2px solid #60BBD1;
+    background-color: #60BBD1;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+    
 }
