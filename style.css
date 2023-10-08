@@ -129,7 +129,6 @@ body {
 }
 
 .container-vxod{
-    position: absolute;
     padding-top:24px;
     background-color: #85D3E8; 
     color: white; 
@@ -137,4 +136,25 @@ body {
   
     border-radius: 10px; 
     
+}
+.button {
+    position: absolute;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
+    top:610px;
+}
+
+.button1 {
+    position: absolute;
+    top: 690px;
+    left: 580px;
+}
+
+.button2 {
+    position: absolute;
+    top: 690px;
+    right: 580px;
 }
