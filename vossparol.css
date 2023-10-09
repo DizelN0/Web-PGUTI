@@ -21,28 +21,27 @@ body {
 }
 
 .container-slova {
+    position: absolute;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #3FB0CB;
     margin: 0 auto;
     font-family: Inconsolata;
     text-align: center;
-    font-size: 46px;
-    padding-bottom: 65px;
+    top: 195px;
+    font-size: 40px;
 }
 
-.container-email {
+.cont-parol {
     position: absolute;
-    top: 60%;
-    right: 50%;
-    transform: translate(50%, -50%);
+    top: 390px;
 }
 
-.slova {
-    letter-spacing: 5.28px;
-    
+.new-parol {
+    position: absolute;
+    top: 400px;
 }
 
-    .slova input[type="text"] {
+    .new-parol input[type="text"] {
         font-weight: 400;
         font-family: Lalezar;
         border: 2px solid #1EC3EC;
@@ -53,27 +52,32 @@ body {
         font-weight: 400;
         line-height: normal;
         color: #FFF;
-        position: absolute;
-        top:540px;
-        right:780px;
     }
 
-.button{
-    position:absolute;
-    top: 620px;
+.cont-parol1 {
+    position: absolute;
+    top: 490px;
 }
 
-.circle-left{
-    position:absolute;
-    left:0px;
+.new-pass {
+    position: absolute;
+    top: 500px;
 }
 
-.circle-top{
-    position:absolute;
-    top:0px;
-}
+    .new-pass input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #1EC3EC;
+        background-color: #1EC3EC;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
 
-.circle-right{
-    position:absolute;
-    right:0px;
+.button {
+    position: absolute;
+    top: 590px;
 }

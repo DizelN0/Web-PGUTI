@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@700&family=Lalezar&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(119deg, #FFF -2.02%, #5DCAE5 126.77%) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.container-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.container-slova {
+    position:absolute;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #3FB0CB;
+    margin: 0 auto;
+    font-family: Inconsolata;
+    text-align: center;
+    top: 65px;
+    font-size:40px;
+}
+
+.cont-rectangle{
+   position:absolute;
+   top:250px;
+}
+.name {
+    position: absolute;
+    top: 257px;
+}
+
+.name input[type="text"] {
+    font-weight: 400;
+    font-family: Lalezar;
+    border: 2px solid #1EC3EC;
+    background-color: #1EC3EC;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+ }
+
+.cont-rectangle1{
+    position:absolute;
+    top:350px;
+}
+
+.surname {
+    position: absolute;
+    top: 357px;
+}
+
+    .surname input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #1EC3EC;
+        background-color: #1EC3EC;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+.cont-rectangle2 {
+    position: absolute;
+    top: 450px;
+}
+
+.otchestvo {
+    position: absolute;
+    top: 457px;
+}
+
+    .otchestvo input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #1EC3EC;
+        background-color: #1EC3EC;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+
+.cont-rectangle3 {
+    position: absolute;
+    top: 550px;
+}
+
+label {
+    position: absolute;
+    top: 550px;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 5px 4.000000476837158px rgba(95, 95, 95, 0.25);
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#birthday {
+    position: absolute;
+    width: 200px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    top: 580px;
+    background-color: #1EC3EC;
+}
+
+
+.cont-rectangle4{
+    position:absolute;
+    top:650px;
+}
+.gruppa {
+    position: absolute;
+    top: 657px;
+}
+
+.gruppa input[type="text"] {
+    font-weight: 400;
+    font-family: Lalezar;
+    border: 2px solid #1EC3EC;
+    background-color: #1EC3EC;
+    font-family: Lalezar;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFF;
+}
+
+.cont-rectangle5{
+    position:absolute;
+    top:750px;
+}
+.pochta {
+    position: absolute;
+    top: 757px;
+}
+
+    .pochta input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #1EC3EC;
+        background-color: #1EC3EC;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+.cont-rectangle6 {
+    position: absolute;
+    top: 850px;
+}
+
+.parol {
+    position: absolute;
+    top: 857px;
+}
+
+    .parol input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #1EC3EC;
+        background-color: #1EC3EC;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+.button {
+    position: absolute;
+    top:930px;
+}
+
+.circleR {
+    position:absolute;
+    right:335px;
+}
+
+.circleL {
+    position: absolute;
+    left: 335px;
+}
+
+.circler{
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}

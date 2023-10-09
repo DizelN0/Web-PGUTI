@@ -78,38 +78,34 @@ body {
     }
 }
 
-.slova {
-    letter-spacing: 5.28px;
-    padding-bottom: 10px;
-    position: absolute;
 
-}
-
-.slova input[type="text"] {
-    font-weight: 400;
-    font-family: Lalezar;
-    border: 2px solid #60BBD1;
-    background-color: #60BBD1;
-    font-family: Lalezar;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #FFF;
-}
-
-.rectangle1{
-    padding-top:40px;
-}
-
-.slova1 {
+.name {
     letter-spacing: 13.32px;
-    padding-top: 170px;
+    top: 410px;
+    position: absolute;
+}
+
+    .name input[type="text"] {
+        font-weight: 400;
+        font-family: Lalezar;
+        border: 2px solid #60BBD1;
+        background-color: #60BBD1;
+        font-family: Lalezar;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+        }
+
+.parol {
+    letter-spacing: 13.32px;
+    top: 480px;
     position: absolute;
 
 }
 
-.slova1 input[type="text"] {
+.parol input[type="text"] {
     font-weight: 400;
     font-family: Lalezar;
     border: 2px solid #60BBD1;
