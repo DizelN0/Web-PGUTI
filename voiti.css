@@ -13,20 +13,19 @@ body {
     height: 100vh;
 }
 
-
-.container-logo{
-    position: absolute;
-    top: 0;
-    left: 0;
+.logo{
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 
-.container-slova {
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #3FB0CB;
-    margin: 0 auto;
-    font-family: Inconsolata;
-    text-align: center;
-    
-    padding-bottom: 65px;
+.header {
+    background-color: #DEF4FA;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    position:absolute;
+    top:0px;
+    width:1000px;
 }
-
