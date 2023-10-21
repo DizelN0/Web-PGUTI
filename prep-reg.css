@@ -105,6 +105,10 @@ label {
     animation: MoveDown 8s linear infinite alternate;
 }
 
+.perehod {
+    font-size: 19px;
+}
+
     .circle-right img {
         visibility: visible;
     }
