@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&family=Inconsolata:wght@700&family=Lalezar&display=swap');
-
 body {
     margin: 0;
     padding: 0;
@@ -11,206 +9,126 @@ body {
     background-size: cover;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
 }
 
+.container {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #3FB0CB;
+    margin: 0 auto;
+    font-family: 'Inconsolata', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
 
-.container-logo{
+.container-logo {
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.container-slova {
-    position:absolute;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #3FB0CB;
-    margin: 0 auto;
-    font-family: Inconsolata;
-    text-align: center;
-    top: 65px;
-    font-size:40px;
+    .container-logo img {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.cont-rectangle{
-   position:absolute;
-   top:250px;
-}
-.name {
-    position: absolute;
-    top: 257px;
+.input-wrapper {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
 }
 
-.name input[type="text"] {
+input[type="text"], input[type="password"], input[type="date"] {
     font-weight: 400;
-    font-family: Lalezar;
+    font-family: 'Lalezar';
     border: 2px solid #1EC3EC;
     background-color: #1EC3EC;
-    font-family: Lalezar;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     color: #FFF;
- }
-
-.cont-rectangle1{
-    position:absolute;
-    top:350px;
-}
-
-.surname {
-    position: absolute;
-    top: 357px;
-}
-
-    .surname input[type="text"] {
-        font-weight: 400;
-        font-family: Lalezar;
-        border: 2px solid #1EC3EC;
-        background-color: #1EC3EC;
-        font-family: Lalezar;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #FFF;
-    }
-
-.cont-rectangle2 {
-    position: absolute;
-    top: 450px;
-}
-
-.otchestvo {
-    position: absolute;
-    top: 457px;
-}
-
-    .otchestvo input[type="text"] {
-        font-weight: 400;
-        font-family: Lalezar;
-        border: 2px solid #1EC3EC;
-        background-color: #1EC3EC;
-        font-family: Lalezar;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #FFF;
-    }
-
-
-.cont-rectangle3 {
-    position: absolute;
-    top: 550px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
 }
 
 label {
-    position: absolute;
-    top: 550px;
     color: #FFF;
+    text-shadow: 0px 5px 4px rgba(95, 95, 95, 0.25);
+    font-family: 'Lalezar';
+    color: #1EC3EC;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-align: center;
-    text-shadow: 0px 5px 4.000000476837158px rgba(95, 95, 95, 0.25);
-    font-family: Lalezar;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    margin-top: 10px;
 }
+
 #birthday {
-    position: absolute;
-    width: 200px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    top: 580px;
-    background-color: #1EC3EC;
+    color: #808090;
 }
-
-
-.cont-rectangle4{
-    position:absolute;
-    top:650px;
-}
-.gruppa {
-    position: absolute;
-    top: 657px;
-}
-
-.gruppa input[type="text"] {
-    font-weight: 400;
-    font-family: Lalezar;
-    border: 2px solid #1EC3EC;
-    background-color: #1EC3EC;
-    font-family: Lalezar;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    color: #FFF;
-}
-
-.cont-rectangle5{
-    position:absolute;
-    top:750px;
-}
-.pochta {
-    position: absolute;
-    top: 757px;
-}
-
-    .pochta input[type="text"] {
-        font-weight: 400;
-        font-family: Lalezar;
-        border: 2px solid #1EC3EC;
-        background-color: #1EC3EC;
-        font-family: Lalezar;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #FFF;
-    }
-
-.cont-rectangle6 {
-    position: absolute;
-    top: 850px;
-}
-
-.parol {
-    position: absolute;
-    top: 857px;
-}
-
-    .parol input[type="text"] {
-        font-weight: 400;
-        font-family: Lalezar;
-        border: 2px solid #1EC3EC;
-        background-color: #1EC3EC;
-        font-family: Lalezar;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        color: #FFF;
-    }
 
 .button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+    .button img {
+        width: 300px;
+    }
+
+.circle-left {
     position: absolute;
-    top:930px;
+    left: 0;
+    bottom: 0;
+    animation: slideBackground 10s linear infinite alternate;
 }
 
-.circleR {
-    position:absolute;
-    right:335px;
-}
+    .circle-left img {
+        visibility: visible;
+    }
 
-.circleL {
+.circle-right {
     position: absolute;
-    left: 335px;
+    right: 0;
+    bottom: 0;
+    animation: MoveDown 8s linear infinite alternate;
 }
 
-.circler{
-    position:absolute;
-    right:0px;
-    bottom:0px;
+.perehod {
+    font-size: 19px;
+}
+
+.circle-right img {
+    visibility: visible;
+}
+
+@keyframes slideBackground {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-12%);
+    }
+}
+
+@keyframes MoveDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(7%);
+    }
 }
