@@ -18,36 +18,15 @@ body {
 
 
 
-.button {
-    z-index: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+.button{
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 
 .header {
-    position:absolute;  
-    left:850px;
     width: 121.338px;
     height: 1436px;
     transform: rotate(-90deg);
     flex-shrink: 0;
-    background: linear-gradient(180deg, #DEF4FA 0.24%, #83D7EB 100.24%);
-
-}
-
-.button1{
-    position:absolute;
-    top:34px;
-    right:35px;
-}
-
-.header1 {
-    position:absolute;
-    top:0px;
-    left:0px;
-    width: 153.181px;
-    height: 911.131px;
-    flex-shrink: 0;
-    background: linear-gradient(180deg, #DEF4FA 0%, #83D7EB 100%);
 }
